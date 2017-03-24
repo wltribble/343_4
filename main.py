@@ -1,24 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-  Name: Will Tribble
-  Student ID: 10540462
-  Email: wltribbl@go.olemiss.edu
-  Course Information: CSCI 343 - Section 01
-  Program Source File Name: main.py
-  Programming Assignment: 3.5
-  References: stackoverflow.com for randomization stuff http://bit.ly/2mdzzqy, as well as http://bit.ly/1VAZCX9 for Requests Library
-  Program Description: this program cracks a passcode via a genetic algorithm
-  Due Date: Friday, 3/24/2017, 11:59 pm
-
-  In keeping with the honor code policies of the University of Mississippi, the School of
-  Engineering, and the Department of Computer and Information Science, I affirm that I have
-  neither given nor received assistance on this programming assignment. This assignment
-  represents my individual, original effort.
-  ... My Signature is on File.
-"""
-
 # import the ability to make random strings
 import random
 # i had to download and install the Requests library for this, but I figured that was okay considering
