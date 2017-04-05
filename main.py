@@ -41,7 +41,7 @@ while (test == 0):
             secondValue = int(websiteReturn[0])
             # print the current guess plus the time it returns to make sure the code is running properly
             print(password + ' - ' + str(secondValue) + ' ms')
-        # if it took less time, undo the previous change and make a change to a different index
+        # if it took the same time, undo the previous change and make a change to a different index
         elif (int(websiteReturn[0]) == secondValue):
             # undo the change
             listPassword[randomIndex] = changedCharacter
@@ -54,7 +54,7 @@ while (test == 0):
             secondValue = int(websiteReturn[0])
             # print the current guess plus the time it returns to make sure the code is running properly
             print(password + ' - ' + str(secondValue) + ' ms')
-        # if it took the same time, change that index back
+        # if it took less time, change that index back
         else:
             # undo the change
             listPassword[randomIndex] = changedCharacter
